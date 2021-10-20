@@ -1,0 +1,18 @@
+1) Download Terraform executable binary
+   make that executable accessible systemwide by adding container folder path in environment variables
+   else you can navigate to TF executable binary and execute commands from there
+2) Download azure CLI
+3) login to azure cli by executing below command in powershell/cmd
+	az login
+4) copy main.tf to your working directory 
+5) execute "terraform init"
+	this will download dependencies from it's own repo (hashicorp)
+6) execute "terraform validate" 
+	this will examine terrform file and validate against any syntex error
+7) execute "terraform plan"
+	This will show what will be changed when we apply the changes
+8) execute "terraform appy"
+	This will actually do both thing plan and apply, once it finishes discovering changes it will ask for 
+	confirmation whether to procede or not
+7) execute "terraform destroy"
+	This will delete all of the resources created
