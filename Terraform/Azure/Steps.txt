@@ -1,7 +1,7 @@
-1) Download Terraform executable binary
+1) Download Terraform executable binary (https://www.terraform.io/downloads.html)
    make that executable accessible systemwide by adding container folder path in environment variables
    else you can navigate to TF executable binary and execute commands from there
-2) Download azure CLI
+2) Download azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 3) login to azure cli by executing below command in powershell/cmd
 	az login
 4) copy main.tf to your working directory 
